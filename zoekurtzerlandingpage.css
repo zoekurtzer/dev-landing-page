@@ -1,0 +1,169 @@
+/* Body */
+body {
+  color: #F9FAF8; /* text color whtie */
+  font-family: 'Roboto', sans-serif; /* font family for text */
+  margin: 0; /* removes default margin */
+  padding: 0; /* removes default margin */
+}
+
+/* Header */
+.header {
+  display: flex; /* flexbox layout */
+  justify-content: space-between; /* distributes space between horizontal elements */
+  align-items: center; /* vertically aligns items in the center */
+}
+
+.header-logo {
+  font-size: 24px; /* font size for the logo */
+  font-weight: bold; /* bold text for the logo without semantic value */
+}
+
+.navigation a {
+  text-decoration: none; /* removes underline from links */
+  color: #E5E7EB; /* white text color for links */
+}
+
+.nav {
+  list-style: none; /* removes bullet points from the list */
+  display: flex; /* makes the navigation items align horizontally */
+  gap: 2em; /* adds spacing between items visually */
+  padding: 0; /* removes default padding from the list */
+}
+
+.header-container {
+  background-color: #1F2937; /* background color dark navy for the header container */
+  color: #F9FAF8; /* text color white */
+  padding: 50px; /* adds padding around the header */
+}
+
+/* Top Content */
+.top-content {
+  display: flex; /* flexbox layout */
+  align-items: center; /* aligns items in the center vertically */
+  gap: 20px; /* adds space between the items */
+  color: #E5E7EB; /* white text color */
+}
+
+button.first-button {
+  background: #3882F6; /* blue background for the button */
+  border: 1px solid #3882F6; /* blue border */
+  color: white; /* white text */
+  border-radius: 4px; /* rounded corners */
+  cursor: pointer; /* pointer cursor on hover */
+  padding: 0.5em 1em; /* adds padding inside the button */
+  font-weight: bold; /* bold font weight */
+}
+
+.image-container img {
+  width: 250px; /* image width */
+  height: 250px; /* image height */
+  object-fit: cover; /* ensures the image covers the area without distortion */
+}
+
+/* Middle Content */
+.center-title {
+  text-align: center; /* centers the text */
+  font-size: 20px; /* font size */
+  color: #1F2937; /* text color */
+  font-weight: bold; /* bold text */
+}
+
+.center-information {
+  display: flex; /* flexbox layout */
+  flex-wrap: wrap; /* ensures items wrap to a new row on smaller screens/ if they don't fit */
+  justify-content: center; /* centers items horizontally */
+  gap: 30px; /* adds spacing between items */
+  padding: 20px; /* adds padding around the  section */
+}
+
+.center-title {
+  text-align: center; /* centers the title text */
+  margin-bottom: 20px; /* adds space between the title and content */
+  font-size: 24px; /* font size */
+  font-weight: bold; /* bold text */
+  color: #1F2937; /* dark blue text color */
+}
+
+.information {
+  display: flex; /* flexbox layout */
+  flex-wrap: wrap; /* enables wrapping of items */
+  justify-content: center; /* centers the content horizontally */
+  gap: 40px; /* adds spacing between rows and columns */
+}
+
+.image-item {
+  display: flex; /* flexbox layout */
+  flex-direction: column; /* stacks image and text vertically */
+  align-items: center; /* centers items horizontally */
+  text-align: center; /* centers the text only */
+  max-width: 200px; /* limits the width of each item so the items wrap evenly */
+  cursor: pointer; /* pointer cursor on hover */
+}
+
+.image-item img {
+  width: 180px; /* sets consistent image size */
+  height: 180px; /* sets height */
+  border-radius: 10px; /* rounded corners for images */
+  border: 2px solid rgb(0, 162, 255); /* blue border for images */
+  object-fit: cover; /* ensures images maintan aspect ratio */
+  margin-bottom: 10px; /* space between image and text */
+}
+
+.image-item p {
+  font-size: 16px; /* font size for description text */
+  color: #1F2937; /* text color */
+}
+
+
+/* Quote */
+.quote {
+  background-color: #E5E7EB; /* white background color */
+  font-size: 36px; /* font size */
+  color: #1F2937; /* text color */
+  font-style: italic; /* sets the quote to italic */
+  text-align: center; /* centers the text only */
+  padding: 50px; /* padding around the quote section */
+}
+
+.quote a {
+  display: block; /* makes the attribution a block element */
+  text-align: right; /* aligns the text to the right */
+  font-size: 15px; /* font size */
+  font-weight: bold; /* boldens font without semantic value */
+  color: black; /* text color to black */
+}
+
+/* Sign-up */
+.sign-up {
+  display: flex; /* flexbox layout */
+  justify-content: center; /* centers the content horizontally */
+  padding: 5em 13em; /* adds padding */
+}
+
+.container {
+  display: flex; /* flexbox layout */
+  justify-content: space-between; /* distributes space between left and right sections */
+  align-items: center; /* aligns items in the center vertically */
+  background-color: #3882F6; /* background color to light blue */
+  padding: 3em; /* adds padding */
+  border-radius: 10px; /* rounded corners for images */
+}
+
+.container button {
+  border: 2px solid #FFF; /* adds border solid line and color */
+  background-color: #3882F6; /* background color light blue */
+  color: white; /* text color white */
+  border-radius: 8px; /* rounded corners for images */
+  padding: 0.5em 2em; /* adds padding */
+  cursor: pointer; /* pointer cursor on hover */
+}
+
+/* Footer */
+.footer {
+  background-color: #1F2937; /* dark blue background color for footer */
+  text-align: center; /* centers the text */
+  padding: 20px; /* adds padding to footer */
+  font-size: 10px; /* font size */
+  color: #E5E7EB; /* text color white */
+  margin-top: 20px; /* adds margin to the top to space out visually */
+}
